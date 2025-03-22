@@ -11,7 +11,7 @@ const App = () => {
     e.preventDefault();
     // if number came again 
     if (array.some((item) => item.number === inputNumber)) {
-      alert("Raqamga qara mol");
+      alert("Notog'ri raqam yozildi");
       // add to array
     } else if (inputName && inputJob && inputNumber) {
       setArray([...array, { name: inputName, job: inputJob, number: inputNumber }]);
@@ -20,7 +20,7 @@ const App = () => {
       setInputNumber("");
       
     } else {
-      alert("To'ldirmading");
+      alert("For to'ldirilmadi");
     }
   };
 
