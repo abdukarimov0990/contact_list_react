@@ -34,7 +34,7 @@ const App = () => {
       </header>
       {/* main */}
       <main className="py-6">
-        <div className="w-full max-w-[1140px] mx-auto px-5 grid grid-cols-2 gap-5">
+        <div className="w-full max-w-[1140px] mx-auto px-5 grid grid-cols-1 lg:grid-cols-2 gap-5">
           {/* form */}
           <form className="space-y-4" onSubmit={addToArray}>
             {/* name */}
